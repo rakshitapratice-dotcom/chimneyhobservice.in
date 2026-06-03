@@ -96,6 +96,35 @@ footer{background:var(--ink);padding:52px 6% 28px;}
 .ft-contact-row{color:#6B7280;font-size:.87rem;margin-bottom:8px;display:flex;align-items:center;gap:8px;}
 .ft-bottom{border-top:1px solid rgba(255,255,255,.06);padding-top:24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;color:#4B5563;font-size:.8rem;}
 .back-link{display:inline-flex;align-items:center;gap:6px;color:var(--accent2);text-decoration:none;font-size:.88rem;font-weight:600;margin-bottom:20px;}
+
+@media(max-width:768px){
+  .topbar{flex-direction:column;text-align:center;padding:8px 4%;}
+  .topbar-contact{justify-content:center;gap:12px;}
+  header{padding:0 4%;height:60px;}
+  .logo{font-size:1.1rem;}
+  .logo-mark{width:30px;height:30px;font-size:.9rem;}
+  nav a:not(.nav-cta){display:none;}
+  .nav-cta{padding:7px 14px;font-size:.8rem;}
+  .hero-loc{padding:40px 4% 36px;}
+  .hero-loc h1{font-size:1.6rem;}
+  .hero-loc-sub{font-size:.92rem;}
+  .btn-call,.btn-wa{padding:12px 18px;font-size:.9rem;width:100%;justify-content:center;}
+  .hero-loc-actions{flex-direction:column;}
+  .trust-strip{padding:12px 4%;gap:10px 20px;}
+  .trust-item{font-size:.8rem;}
+  section{padding:44px 4%;}
+  .services-grid{grid-template-columns:1fr;}
+  .why-grid{grid-template-columns:1fr;}
+  .footer-grid{grid-template-columns:1fr;}
+  .cta-band{padding:40px 4%;}
+  .cta-btns{flex-direction:column;align-items:center;}
+  .cta-white,.cta-wa{width:100%;text-align:center;padding:13px 20px;}
+  .ft-bottom{flex-direction:column;text-align:center;}
+}
+@media(max-width:400px){
+  .hero-loc h1{font-size:1.35rem;}
+  .sec-title{font-size:1.3rem;}
+}
 </style>
 </head>
 <body>
@@ -145,12 +174,12 @@ footer{background:var(--ink);padding:52px 6% 28px;}
     <p class="sec-sub">All chimney and hob services available at your doorstep in Mayur Vihar Phase 1.</p>
   </div>
   <div class="services-grid">
-    <div class="svc-card"><div class="svc-icon">🧹</div><div class="svc-name">Chimney Deep Cleaning</div><div class="svc-desc">Complete carbon & grease removal from filters, duct, and motor housing. Restores full suction.</div><div class="svc-price">Starting ₹499</div></div>
-    <div class="svc-card"><div class="svc-icon">⚙️</div><div class="svc-name">Chimney Motor Repair</div><div class="svc-desc">Motor rewinding, bearing replacement, or full motor swap. All brands covered.</div><div class="svc-price">Starting ₹799</div></div>
-    <div class="svc-card"><div class="svc-icon">💨</div><div class="svc-name">Suction Problem Fix</div><div class="svc-desc">Diagnose and repair weak suction — filters, duct blockage, or motor issue.</div><div class="svc-price">Starting ₹399</div></div>
-    <div class="svc-card"><div class="svc-icon">🔥</div><div class="svc-name">Hob Burner Repair</div><div class="svc-desc">Uneven flame, dead burner, auto-ignition failure, knob damage — all repaired.</div><div class="svc-price">Starting ₹349</div></div>
+    <div class="svc-card"><div class="svc-icon">🧹</div><div class="svc-name">Chimney Deep Cleaning</div><div class="svc-desc">Complete carbon & grease removal from filters, duct, and motor housing. Restores full suction.</div><div class="svc-price">Starting ₹1000</div></div>
+    <div class="svc-card"><div class="svc-icon">⚙️</div><div class="svc-name">Chimney Motor Repair</div><div class="svc-desc">Motor rewinding, bearing replacement, or full motor swap. All brands covered.</div><div class="svc-price">Starting ₹1200</div></div>
+    <div class="svc-card"><div class="svc-icon">💨</div><div class="svc-name">Suction Problem Fix</div><div class="svc-desc">Diagnose and repair weak suction — filters, duct blockage, or motor issue.</div></div>
+    <div class="svc-card"><div class="svc-icon">🔥</div><div class="svc-name">Hob Deep Cleaning</div><div class="svc-desc">Complete cleaning of all burners, grates, surface, drip trays and knobs. Restores like-new performance.</div><div class="svc-price">Starting ₹700</div></div>
     <div class="svc-card"><div class="svc-icon">🏗️</div><div class="svc-name">Chimney Installation</div><div class="svc-desc">New chimney fitting with duct layout, wall bracket, and connection check.</div><div class="svc-price">Starting ₹699</div></div>
-    <div class="svc-card"><div class="svc-icon">📋</div><div class="svc-name">Annual Maintenance AMC</div><div class="svc-desc">2 scheduled cleanings + priority service calls for 12 months.</div><div class="svc-price">Starting ₹999/yr</div></div>
+    
   </div>
 </section>
 
