@@ -497,6 +497,46 @@ footer{background:var(--ink);padding:56px 6% 28px;color:#9CA3AF;}
   .hero-stat-n{font-size:1.4rem;}
   .footer-grid{grid-template-columns:1fr;}
 }
+
+@media(max-width:768px){
+  .topbar{flex-direction:column;text-align:center;padding:8px 4%;}
+  .topbar-contact{justify-content:center;gap:12px;}
+  header{padding:0 4%;height:60px;}
+  .logo{font-size:1.1rem;}
+  .logo-mark{width:30px;height:30px;font-size:.9rem;}
+  nav a:not(.nav-cta){display:none;}
+  .nav-cta{padding:7px 14px;font-size:.8rem;}
+  .hero{padding:44px 4% 40px;}
+  .hero-grid{grid-template-columns:1fr;gap:32px;}
+  .hero-right{display:none;}
+  .hero h1{font-size:1.75rem;}
+  .hero-sub{font-size:.92rem;}
+  .btn-call,.btn-wa{padding:12px 18px;font-size:.9rem;width:100%;justify-content:center;}
+  .hero-actions{flex-direction:column;}
+  .hero-stats{flex-wrap:wrap;}
+  .hero-stat{min-width:45%;}
+  .trust-strip{padding:12px 4%;gap:10px 20px;}
+  .trust-item{font-size:.8rem;}
+  section{padding:44px 4%;}
+  .problems-grid{grid-template-columns:1fr;}
+  .services-grid{grid-template-columns:1fr;}
+  .brands-grid{gap:8px;}
+  .areas-grid{grid-template-columns:1fr 1fr;}
+  .why-grid{grid-template-columns:1fr;}
+  .process-grid{grid-template-columns:1fr;}
+  .footer-grid{grid-template-columns:1fr;}
+  .faq-wrap{max-width:100%;}
+  .cta-band{padding:40px 4%;}
+  .cta-btns{flex-direction:column;align-items:center;}
+  .cta-white,.cta-wa{width:100%;text-align:center;padding:13px 20px;}
+  .ft-bottom{flex-direction:column;text-align:center;}
+  .seo-body{padding:0;}
+}
+@media(max-width:400px){
+  .hero h1{font-size:1.45rem;}
+  .sec-title{font-size:1.25rem;}
+  .areas-grid{grid-template-columns:1fr;}
+}
 </style>
 </head>
 <body>
@@ -630,19 +670,19 @@ footer{background:var(--ink);padding:56px 6% 28px;color:#9CA3AF;}
       <div class="svc-icon">🧹</div>
       <div class="svc-name">Chimney Deep Cleaning</div>
       <div class="svc-desc">Full disassembly, filter degreasing, baffle wash, duct cleaning, motor fan clean.</div>
-      <span class="svc-price">From ₹499</span>
+      <span class="svc-price">From ₹1000</span>
     </div>
     <div class="svc-card">
       <div class="svc-icon">⚙️</div>
       <div class="svc-name">Motor Repair / Replacement</div>
       <div class="svc-desc">Suction motor repair, capacitor change, or full motor replacement with warranty.</div>
-      <span class="svc-price">From ₹799</span>
+      <span class="svc-price">From ₹1200</span>
     </div>
     <div class="svc-card">
       <div class="svc-icon">🔥</div>
-      <div class="svc-name">Hob Repair</div>
-      <div class="svc-desc">Gas hob ignition, burner, knob, valve repair. Induction cooktop repair also available.</div>
-      <span class="svc-price">From ₹399</span>
+      <div class="svc-name">Hob Deep Cleaning</div>
+      <div class="svc-desc">Complete cleaning of all burners, grates, surface, drip trays and knobs. Restores like-new performance.</div>
+      <span class="svc-price">From ₹700</span>
     </div>
     <div class="svc-card">
       <div class="svc-icon">📦</div>
@@ -650,12 +690,7 @@ footer{background:var(--ink);padding:56px 6% 28px;color:#9CA3AF;}
       <div class="svc-desc">Wall/ceiling mount, duct run, electrical hookup, and user demo.</div>
       <span class="svc-price">From ₹499</span>
     </div>
-    <div class="svc-card">
-      <div class="svc-icon">🔁</div>
-      <div class="svc-name">Annual Maintenance (AMC)</div>
-      <div class="svc-desc">2 scheduled cleans per year + priority response + discounted repair rates.</div>
-      <span class="svc-price">₹1499/year</span>
-    </div>
+
     <div class="svc-card">
       <div class="svc-icon">🔍</div>
       <div class="svc-name">Free Inspection</div>
@@ -705,42 +740,42 @@ footer{background:var(--ink);padding:56px 6% 28px;color:#9CA3AF;}
     <strong>ChimneyHob Service</strong> operates across all major East Delhi localities. We maintain dedicated technicians in clusters — so you're never more than a short drive away. <strong>Same-day slots</strong> are available for most areas. Call <strong>7428444313</strong> to confirm your slot.
   </div>
   <div class="areas-grid">
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Mayur Vihar Phase 1</div></div><div class="area-kw">Faber chimney service Mayur Vihar</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Mayur Vihar Phase 2</div></div><div class="area-kw">Elica chimney repair Mayur Vihar Ph 2</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Mayur Vihar Phase 3</div></div><div class="area-kw">chimney cleaning Mayur Vihar Ph 3</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Trilokpuri</div></div><div class="area-kw">chimney motor repair Trilokpuri</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Kalyanpuri</div></div><div class="area-kw">kitchen chimney service Kalyanpuri</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Kondli</div></div><div class="area-kw">Glen chimney repair Kondli</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Khichripur</div></div><div class="area-kw">hob repair Khichripur East Delhi</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Patparganj</div></div><div class="area-kw">Hindware chimney service Patparganj</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">IP Extension</div></div><div class="area-kw">chimney repair IP Extension Delhi</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Mandawali</div></div><div class="area-kw">chimney deep cleaning Mandawali</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Pandav Nagar</div></div><div class="area-kw">kitchen chimney repair Pandav Nagar</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Ganesh Nagar</div></div><div class="area-kw">chimney service Ganesh Nagar Delhi</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Laxmi Nagar</div></div><div class="area-kw">Faber Elica chimney repair Laxmi Nagar</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Shakarpur</div></div><div class="area-kw">chimney cleaning service Shakarpur</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Nirman Vihar</div></div><div class="area-kw">hob burner repair Nirman Vihar</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Preet Vihar</div></div><div class="area-kw">Glen chimney service Preet Vihar</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Vikas Marg</div></div><div class="area-kw">chimney motor repair Vikas Marg</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Krishna Nagar</div></div><div class="area-kw">kitchen chimney service Krishna Nagar</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Geeta Colony</div></div><div class="area-kw">chimney repair Geeta Colony Delhi</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Gandhi Nagar</div></div><div class="area-kw">Elica chimney cleaning Gandhi Nagar</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Raghubarpura</div></div><div class="area-kw">chimney service Raghubarpura Delhi</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Jagatpuri</div></div><div class="area-kw">kitchen hood repair Jagatpuri</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Shahdara</div></div><div class="area-kw">Faber chimney repair Shahdara</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Vishwas Nagar</div></div><div class="area-kw">chimney deep clean Vishwas Nagar</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Bhola Nath Nagar</div></div><div class="area-kw">chimney service Bhola Nath Nagar</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Mansarovar Park</div></div><div class="area-kw">hob repair Mansarovar Park Delhi</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Vivek Vihar</div></div><div class="area-kw">Hindware chimney service Vivek Vihar</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Surajmal Vihar</div></div><div class="area-kw">chimney motor repair Surajmal Vihar</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Yojana Vihar</div></div><div class="area-kw">kitchen chimney cleaning Yojana Vihar</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Anand Vihar</div></div><div class="area-kw">Glen Elica chimney repair Anand Vihar</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Karkardooma</div></div><div class="area-kw">chimney service Karkardooma Delhi</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Dayanand Vihar</div></div><div class="area-kw">chimney repair Dayanand Vihar</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Dilshad Garden</div></div><div class="area-kw">Faber chimney service Dilshad Garden</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Jhilmil Colony</div></div><div class="area-kw">chimney deep cleaning Jhilmil Colony</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">New Ashok Nagar</div></div><div class="area-kw">kitchen chimney repair New Ashok Nagar</div></div>
-    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name">Chilla Village</div></div><div class="area-kw">chimney hob service Chilla Village</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-mayur-vihar-phase-1.html" style="color:inherit;text-decoration:none;">Mayur Vihar Phase 1</a></div></div><div class="area-kw">Faber chimney service Mayur Vihar</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-mayur-vihar-phase-2.html" style="color:inherit;text-decoration:none;">Mayur Vihar Phase 2</a></div></div><div class="area-kw">Elica chimney repair Mayur Vihar Ph 2</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-mayur-vihar-phase-3.html" style="color:inherit;text-decoration:none;">Mayur Vihar Phase 3</a></div></div><div class="area-kw">chimney cleaning Mayur Vihar Ph 3</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-trilokpuri.html" style="color:inherit;text-decoration:none;">Trilokpuri</a></div></div><div class="area-kw">chimney motor repair Trilokpuri</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-kalyanpuri.html" style="color:inherit;text-decoration:none;">Kalyanpuri</a></div></div><div class="area-kw">kitchen chimney service Kalyanpuri</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-kondli.html" style="color:inherit;text-decoration:none;">Kondli</a></div></div><div class="area-kw">Glen chimney repair Kondli</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-khichripur.html" style="color:inherit;text-decoration:none;">Khichripur</a></div></div><div class="area-kw">hob repair Khichripur East Delhi</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-patparganj.html" style="color:inherit;text-decoration:none;">Patparganj</a></div></div><div class="area-kw">Hindware chimney service Patparganj</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-ip-extension.html" style="color:inherit;text-decoration:none;">IP Extension</a></div></div><div class="area-kw">chimney repair IP Extension Delhi</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-mandawali.html" style="color:inherit;text-decoration:none;">Mandawali</a></div></div><div class="area-kw">chimney deep cleaning Mandawali</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-pandav-nagar.html" style="color:inherit;text-decoration:none;">Pandav Nagar</a></div></div><div class="area-kw">kitchen chimney repair Pandav Nagar</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-ganesh-nagar.html" style="color:inherit;text-decoration:none;">Ganesh Nagar</a></div></div><div class="area-kw">chimney service Ganesh Nagar Delhi</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-laxmi-nagar.html" style="color:inherit;text-decoration:none;">Laxmi Nagar</a></div></div><div class="area-kw">Faber Elica chimney repair Laxmi Nagar</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-shakarpur.html" style="color:inherit;text-decoration:none;">Shakarpur</a></div></div><div class="area-kw">chimney cleaning service Shakarpur</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-nirman-vihar.html" style="color:inherit;text-decoration:none;">Nirman Vihar</a></div></div><div class="area-kw">hob burner repair Nirman Vihar</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-preet-vihar.html" style="color:inherit;text-decoration:none;">Preet Vihar</a></div></div><div class="area-kw">Glen chimney service Preet Vihar</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-vikas-marg.html" style="color:inherit;text-decoration:none;">Vikas Marg</a></div></div><div class="area-kw">chimney motor repair Vikas Marg</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-krishna-nagar.html" style="color:inherit;text-decoration:none;">Krishna Nagar</a></div></div><div class="area-kw">kitchen chimney service Krishna Nagar</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-geeta-colony.html" style="color:inherit;text-decoration:none;">Geeta Colony</a></div></div><div class="area-kw">chimney repair Geeta Colony Delhi</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-gandhi-nagar.html" style="color:inherit;text-decoration:none;">Gandhi Nagar</a></div></div><div class="area-kw">Elica chimney cleaning Gandhi Nagar</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-raghubarpura.html" style="color:inherit;text-decoration:none;">Raghubarpura</a></div></div><div class="area-kw">chimney service Raghubarpura Delhi</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-jagatpuri.html" style="color:inherit;text-decoration:none;">Jagatpuri</a></div></div><div class="area-kw">kitchen hood repair Jagatpuri</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-shahdara.html" style="color:inherit;text-decoration:none;">Shahdara</a></div></div><div class="area-kw">Faber chimney repair Shahdara</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-vishwas-nagar.html" style="color:inherit;text-decoration:none;">Vishwas Nagar</a></div></div><div class="area-kw">chimney deep clean Vishwas Nagar</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-bhola-nath-nagar.html" style="color:inherit;text-decoration:none;">Bhola Nath Nagar</a></div></div><div class="area-kw">chimney service Bhola Nath Nagar</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-mansarovar-park.html" style="color:inherit;text-decoration:none;">Mansarovar Park</a></div></div><div class="area-kw">hob repair Mansarovar Park Delhi</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-vivek-vihar.html" style="color:inherit;text-decoration:none;">Vivek Vihar</a></div></div><div class="area-kw">Hindware chimney service Vivek Vihar</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-surajmal-vihar.html" style="color:inherit;text-decoration:none;">Surajmal Vihar</a></div></div><div class="area-kw">chimney motor repair Surajmal Vihar</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-yojana-vihar.html" style="color:inherit;text-decoration:none;">Yojana Vihar</a></div></div><div class="area-kw">kitchen chimney cleaning Yojana Vihar</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-anand-vihar.html" style="color:inherit;text-decoration:none;">Anand Vihar</a></div></div><div class="area-kw">Glen Elica chimney repair Anand Vihar</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-karkardooma.html" style="color:inherit;text-decoration:none;">Karkardooma</a></div></div><div class="area-kw">chimney service Karkardooma Delhi</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-dayanand-vihar.html" style="color:inherit;text-decoration:none;">Dayanand Vihar</a></div></div><div class="area-kw">chimney repair Dayanand Vihar</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-dilshad-garden.html" style="color:inherit;text-decoration:none;">Dilshad Garden</a></div></div><div class="area-kw">Faber chimney service Dilshad Garden</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-jhilmil-colony.html" style="color:inherit;text-decoration:none;">Jhilmil Colony</a></div></div><div class="area-kw">chimney deep cleaning Jhilmil Colony</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-new-ashok-nagar.html" style="color:inherit;text-decoration:none;">New Ashok Nagar</a></div></div><div class="area-kw">kitchen chimney repair New Ashok Nagar</div></div>
+    <div class="area-card"><div class="area-row"><div class="area-dot"></div><div class="area-name"><a href="chimney-repair-chilla-village.html" style="color:inherit;text-decoration:none;">Chilla Village</a></div></div><div class="area-kw">chimney hob service Chilla Village</div></div>
   </div>
 </section>
 
@@ -862,21 +897,20 @@ footer{background:var(--ink);padding:56px 6% 28px;color:#9CA3AF;}
         <li><a href="#">Chimney Motor Repair</a></li>
         <li><a href="#">Chimney Installation</a></li>
         <li><a href="#">Hob Repair</a></li>
-        <li><a href="#">Annual Maintenance AMC</a></li>
         <li><a href="#">Spare Parts Supply</a></li>
       </ul>
     </div>
     <div>
       <div class="ft-title">Key Areas</div>
       <ul class="ft-links">
-        <li><a href="#">Laxmi Nagar</a></li>
-        <li><a href="#">Preet Vihar</a></li>
-        <li><a href="#">Mayur Vihar</a></li>
-        <li><a href="#">Shahdara</a></li>
-        <li><a href="#">Dilshad Garden</a></li>
-        <li><a href="#">Vivek Vihar</a></li>
-        <li><a href="#">Patparganj</a></li>
-        <li><a href="#">Anand Vihar</a></li>
+        <li><a href="chimney-repair-laxmi-nagar.html">Laxmi Nagar</a></li>
+        <li><a href="chimney-repair-preet-vihar.html">Preet Vihar</a></li>
+        <li><a href="chimney-repair-mayur-vihar-phase-1.html">Mayur Vihar</a></li>
+        <li><a href="chimney-repair-shahdara.html">Shahdara</a></li>
+        <li><a href="chimney-repair-dilshad-garden.html">Dilshad Garden</a></li>
+        <li><a href="chimney-repair-vivek-vihar.html">Vivek Vihar</a></li>
+        <li><a href="chimney-repair-patparganj.html">Patparganj</a></li>
+        <li><a href="chimney-repair-anand-vihar.html">Anand Vihar</a></li>
       </ul>
     </div>
     <div>
